@@ -219,7 +219,7 @@ print()
 print()
 
 def huu():
-    x=123
+    global x;x = 123
     print(x)
 
 huu()
